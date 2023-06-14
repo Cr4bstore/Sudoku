@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Sudoku</title>
+  <script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM="
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="Pop-Up-styles.css">
+  <link rel="icon" width="32px" height="32px" type="image/png" href="ressources/img/Sudoku_Favicon.png">
+  <script src="game.js"></script>
+</head>
+
+<body>
+  <header>
+    <h2>Play Sudoku</h2>
+  </header>
+  <button href="#" class="myButton">Start Again</button>
+  <div class="sudoku">
+    <div class="1">
+      <h1></h1>
+      <h1></h1>
+      <h1></h1> <!-- First row -->
+      <h1></h1>
+      <h1></h1>
+      <h1></h1>
+      <h1></h1>
+      <h1></h1>
+      <h1></h1>
+    </div>
+    <div class="2">
+      <h1></h1>
+      <h1></h1>
+      <h1></h1> <!-- Second row -->
+      <h1></h1>
+      <h1></h1>
+      <h1></h1>
+      <h1></h1>
+      <h1></h1>
+      <h1></h1>
+    </div>
+    <div class="3">
+      <h1></h1>
+      <h1></h1>
+      <h1></h1> <!-- Third row -->
+      <h1></h1>
+      <h1></h1>
+      <h1></h1>
+      <h1></h1>
+      <h1></h1>
+      <h1></h1>
+    </div>
+    <div class="4">
+      <h1></h1>
+      <h1></h1>
+      <h1></h1> <!-- Fourth row -->
+      <h1></h1>
+      <h1></h1>
+      <h1></h1>
+      <h1></h1>
+      <h1></h1>
+      <h1></h1>
+    </div>
+    <div class="5">
+      <h1></h1>
+      <h1></h1>
+      <h1></h1> <!-- Fifth row -->
+      <h1></h1>
+      <h1></h1>
+      <h1></h1>
+      <h1></h1>
+      <h1></h1>
+      <h1></h1>
+    </div>
+    <div class="6">
+      <h1></h1>
+      <h1></h1>
+      <h1></h1> <!-- Sixth row -->
+      <h1></h1>
+      <h1></h1>
+      <h1></h1>
+      <h1></h1>
+      <h1></h1>
+      <h1></h1>
+    </div>
+    <div class="7">
+      <h1></h1>
+      <h1></h1>
+      <h1></h1> <!-- Seventh row -->
+      <h1></h1>
+      <h1></h1>
+      <h1></h1>
+      <h1></h1>
+
+      <h1></h1>
+      <h1></h1>
+    </div>
+    <div class="8">
+      <h1></h1>
+      <h1></h1>
+      <h1></h1> <!-- Eigth row -->
+      <h1></h1>
+      <h1></h1>
+      <h1></h1>
+      <h1></h1>
+      <h1></h1>
+      <h1></h1>
+    </div>
+    <div class="9">
+      <h1></h1>
+      <h1></h1>
+      <h1></h1> <!-- Ninth row -->
+      <h1></h1>
+      <h1></h1>
+      <h1></h1>
+      <h1></h1>
+      <h1></h1>
+      <h1></h1>
+    </div>
+  </div>
+  <div class="overlay-pop-up">
+  
+    <div id="Pop-Up">
+      <h2 class="heading-pop" >Choose Your Difficulty</h2>
+      <div class="mode-selector">
+        <label>
+          <input type="radio" name="mode" value="easy" checked>
+          Easy
+        </label>
+        <label>
+          <input type="radio" name="mode" value="medium">
+          Medium
+        </label>
+        <label>
+          <input type="radio" name="mode" value="hard">
+          Hard
+        </label>
+        <label>
+          <input type="radio" name="mode" value="extreme">
+          Extreme
+        </label>
+      </div>
+      
+      <svg class="cross" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+        fill="lightslategray" height="20px" width="20px" version="1.1" id="Capa_1" viewBox="0 0 490 490"
+        xml:space="preserve">
+        <polygon
+          points="456.851,0 245,212.564 33.149,0 0.708,32.337 212.669,245.004 0.708,457.678 33.149,490 245,277.443 456.851,490   489.292,457.678 277.331,245.004 489.292,32.337 " />
+      </svg>
+      <button class="start-game-btn">Play</button>
+    </div>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+  <script src="functions.js"></script>
+
+</body>

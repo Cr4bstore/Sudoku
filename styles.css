@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.highlight{
+    background-color: red;
+}
+.different-color{
+    color: red;
+}
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    font-weight: 200;
+    height: 100%;
+    width: 100%;
+    margin: 0%;
+    justify-self: center;
+    background: white;
+    border: 1px solid grey;
+    color: #344861;
+    user-select: none; /* Disable text selection */
+    cursor: default; /* Set cursor to default */
+}
+
+.sudoku {
+    display: grid;
+    width: 450px;
+    aspect-ratio: 1;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    border: 3px solid black;
+}
+
+div.sudoku>div {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    border: solid 2px black;
+    background: white;
+}
+
+h2 {
+    font-size: 60px;
+}
+
+.myButton {
+    background-color: #0072e3;
+    border-radius: 39px;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 28px;
+    font-weight: bold;
+    padding: 12px 76px;
+    text-decoration: none;
+    text-shadow: -3px 5px 9px #2f6627;
+    margin-bottom: 20px;
+}
+
+.myButton:hover {
+    background-color: #000000;
+}
+
+.myButton:active {
+    position: relative;
+    top: 1px;
+}
+.cellular{
+    width: 100%;
+    aspect-ratio: 1;
+    border: 1px grey solid;
+}
